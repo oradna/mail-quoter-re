@@ -1,6 +1,6 @@
 # mail-quoter-re
 A tool that uses AI to classify, read and extract key information from aviation reinsurance quote requests and automatically sends the mails to request a quote to underwriters and wholesale brokers.
-The tool is designed for private use of my reinsurance brokerage firm. The tool must be able to monitor the mails and identify, using keywords or other methods, if a mail is an aviation reinsurance program quote request. 
+The tool is designed only for private use of an aviation reinsurance brokerage firm. The tool must be able to monitor the mails and identify, using keywords or other methods, if a mail is an aviation reinsurance program quote request. 
 Such mails include information about the aircraft make and model, year, pilots name, original insured name, as well as the policy expiry date, coverages needad and their limits, etc. 
 Our tool must extract that key information and process it to make several functions: 
 1) The tool Drafts a mail to underwritters asking for a quote request, using a tenplate that will be filled with the  information extracted from the mail we received as quote request. This mail will be reviewed by a human before being sent.
